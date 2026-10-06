@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "data_store" {
-  bucket_prefix = "orbit-labs-db-"
+  bucket_prefix = "orbit-labs-db2-"
 
   tags = {
     name      = "Orbit Labs Data Store"
