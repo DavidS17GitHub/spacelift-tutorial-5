@@ -9,6 +9,7 @@ resource "aws_s3_bucket" "data_store" {
     name      = "Orbit Labs Data Store"
     managedBy = "Spacelift"
     type      = "database"
+    version   = "v2"
   }
 }
 
